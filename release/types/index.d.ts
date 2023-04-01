@@ -1,4 +1,4 @@
-declare module 'pterodactyl.js' {
+declare module '@avionrx/pterodactyl-js' {
     export class Builder {
         constructor(url?: string, apiKey?: string);
 
