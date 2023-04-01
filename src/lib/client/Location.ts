@@ -86,9 +86,9 @@ class Location extends LocationModel {
     }
 
     public delete(): Promise<void> {
-        return new Promise((resolve, reject) => {
-            return new Promise((resolve, reject) => {
-                return new Promise(async (resolve, reject) => {
+        return new Promise<void>((resolve, reject) => {
+            return new Promise<void>((resolve, reject) => {
+                return new Promise<void>(async (resolve, reject) => {
                     try {
                         await this.api.call(`/application/locations/${this.id}`, 'DELETE');
                         resolve();

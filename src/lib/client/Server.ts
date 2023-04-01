@@ -35,6 +35,16 @@ class Server extends ServerModel {
             }
         });
     }
+    public static getAllWithUserId(api: AdminAPI, page: number = 1): Promise<Server[]> {
+        return new Promise(async (resolve, reject) => {
+            try {
+                let res = await api.call(`/application/servers?page=${page}`);
+                resolve(res.data.map((value: any) => new Server(api, value.attributes, res.pagination)));
+            } catch (error) {
+                reject(error);
+            }
+        });
+    }
 
     public static getById(api: AdminAPI, id: number): Promise<Server> {
         return new Promise(async (resolve, reject) => {

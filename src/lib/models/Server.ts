@@ -52,6 +52,7 @@ interface ServerLimits {
 interface ServerFeatureLimits {
     databases: number;
     allocations: number;
+    backups: number;
 }
 
 interface ServerContainer {
@@ -189,7 +190,8 @@ class Server implements ServerOptions {
             },
             featureLimits: {
                 databases: this.featureLimits.databases,
-                allocations: this.featureLimits.allocations
+                allocations: this.featureLimits.allocations,
+                backups: this.featureLimits.backups
             },
             user: this.user,
             node: this.node,
