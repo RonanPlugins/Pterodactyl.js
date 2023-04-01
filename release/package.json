@@ -11,10 +11,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/RedstoneGamez/Pterodactyl.js.git"
-    },
-    "bugs": {
-        "url": "https://github.com/RedstoneGamez/Pterodactyl.js/issues"
+        "url": "git+https://github.com/RonanPlugins/Pterodactyl.js.git"
     },
     "author": "RedstoneGamez (RedstoneGamez#0001)",
     "license": "MIT",

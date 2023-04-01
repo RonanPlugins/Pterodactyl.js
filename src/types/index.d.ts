@@ -521,6 +521,7 @@ declare module 'pterodactyl.js' {
     interface ServerFeatureLimits {
         databases: number;
         allocations: number;
+        backups: number;
     }
 
     interface ServerContainer {
