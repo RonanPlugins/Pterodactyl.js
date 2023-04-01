@@ -1,4 +1,4 @@
-declare module 'pterodactyl.js' {
+declare module '@avionrx/pterodactyl-js' {
     export class Builder {
         constructor(url?: string, apiKey?: string);
 
@@ -734,6 +734,7 @@ declare module 'pterodactyl.js' {
     interface ServerFeatureLimits {
         databases: number;
         allocations: number;
+        backups: number;
     }
 
     interface NestOptions {
