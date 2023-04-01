@@ -1,6 +1,6 @@
 {
     "name": "@avionrx/pterodactyl-js",
-    "version": "2.0.5",
+    "version": "2.0.5.1",
     "description": "A wrapper for the Pterodactyl Panel API",
     "main": "index.js",
     "types": "src/types/index.d.ts",
