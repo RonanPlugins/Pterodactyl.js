@@ -17,7 +17,7 @@
         "type": "git",
         "url": "https://github.com/RonanPlugins/Pterodactyl.js.git"
     },
-    "author": "avionrx",
+    "author": "Kristoffer Helle",
     "license": "ISC",
     "dependencies": {
         "node-fetch": "^2.6.0"
