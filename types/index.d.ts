@@ -260,6 +260,8 @@ declare module '@avionrx/pterodactyl-js' {
 
         public setDatabaseAmount(amount: number): Promise<any>;
 
+        public setBackupsAmount(amount: number): Promise<any>;
+
         public setAllocationAmount(amount: number): Promise<any>;
 
         public setStartupCommand(command: string): Promise<Server>;
