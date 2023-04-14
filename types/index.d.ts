@@ -262,6 +262,8 @@ declare module '@avionrx/pterodactyl-js' {
 
         public setBackupsAmount(amount: number): Promise<any>;
 
+        public setSplitsAmount(amount: number): Promise<any>;
+
         public setAllocationAmount(amount: number): Promise<any>;
 
         public setStartupCommand(command: string): Promise<Server>;
@@ -737,6 +739,7 @@ declare module '@avionrx/pterodactyl-js' {
         databases: number;
         allocations: number;
         backups: number;
+        splits: number;
     }
 
     interface NestOptions {
